@@ -1,0 +1,88 @@
+// 统一管理请求地址
+export const URL = {
+  // 登录
+  login: '/login',
+  // 获取短信验证码
+  securitycode: '/smsCode',
+  // 设置密码（修改）
+  setpwd: '/password',
+  // ⾸⻚banner（轮播图）
+  banner: '/banner',
+  // ⾸⻚数据
+  homedata: '/recommend/appIndex',
+  // 课程筛选
+  courselist: '/courseBasis',
+  // 课程详情
+  coursedetail: '/courseInfo',
+  // 课程详情-课程⼤纲
+  courseoutline: '/courseChapter',
+  // 课程详情-课程评论
+  coursecomment: '/courseComment',
+  // 课程报名
+  courseapply: '/order/downOrder',
+  // 课程收藏
+  coursecollect: '/collect',
+  // 课程分享
+  courseshare: '/share/%7Bcourse_basis_id%7D',
+  // 取消收藏
+  cancelshare: '/%7Bcollect_id%7D/1',
+  // 获取⽤户信息
+  userinfo: '/userInfo',
+  // 更新⽤户资料
+  updateuser: '/user',
+  // 修改头像
+  updatehead: '/img',
+  // 讲师详情
+  teacherdetail: '/teacher',
+  // 讲师介绍
+  teacherinfo: '/teacher/info',
+  // 特色课分类
+  courseclassify: '/courseClassify',
+  // 课程筛选
+  coursefilter: '/courseBasis',
+  // 获取特色课、一对一、学习币
+  getcenterinfo: '/getUCenterInfo',
+  // 约课记录
+  record: '/oto/myInviteCourse/index',
+  // 我的学习
+  mystudy: '/myStudy',
+  // 余额
+  balance: '/coinBalance',
+  // 学习币列表
+  balancelist: '/coin/coinRank',
+  // 关注列表
+  concern: '/collect',
+  // 关注
+  gz: '/teacher/collect',
+  // 取消关注
+  unfollow: '/collect/cancel',
+  // 学科年级
+  subject: '/module/attribute/1',
+  // 一对一辅导
+  coath: '/otoCourse',
+  // 确认订单
+  order: '/order/shopInfo',
+  // 修改头像
+  updateimg: '/public/img',
+  // 地址管理
+  address: '/address',
+  // 添加地址
+  add_site: '/address',
+  // 修改地址
+  alter: '/address',
+  // 删除地址
+  remove_site: '/address',
+  // 获取地址信息
+  get_site: '/address',
+  //热门资讯
+  hotdetail:'/information/detail'
+}
+
+export const METHOD = {
+  GET: 'GET',
+  POST: 'POST',
+  UPLOAD: 'UPLOAD',
+  DOWNLOAD: 'DOWNLOAD',
+  PUT: 'PUT',
+  DELETE: 'DELETE'
+}
